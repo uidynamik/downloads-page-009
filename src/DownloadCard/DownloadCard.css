@@ -1,0 +1,29 @@
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.download-card {
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid #d8d7d7;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.download-btn {
+  border: 1px solid #d8d7d7;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  transition: background-color 0.3s;
+  margin-top: 2rem;
+}
+
+.download-btn:hover {
+  background-color: #f0f0f0;
+}
